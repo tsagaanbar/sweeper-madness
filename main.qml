@@ -14,7 +14,7 @@ Window {
 
     property int gameState: 0
 
-    FontLoader { source: "fonts/iamaplayer.ttf" }
+    // FontLoader { source: "fonts/iamaplayer.ttf" }
 
     Background {
         id: background

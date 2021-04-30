@@ -16,9 +16,10 @@ include(deployment.pri)
 RESOURCES += \
     res.qrc
 
-# English
-TRANSLATIONS += language/en.ts
-# Français
-TRANSLATIONS += language/fr.ts
+
+TRANSLATIONS += \
+    language/en.ts \ # English
+    language/fr.ts \ # Français
+    language/cn.ts   # Chinese
 
 DISTFILES +=

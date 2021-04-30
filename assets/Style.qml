@@ -19,7 +19,7 @@ QtObject {
     readonly property int hairCutShort: 3
 
     /** Background */
-    property color backgroundColor: "#ddddee"
+    property color backgroundColor: "#bbddff"
     property color backgroundBorderColor: "#50000000"
     property color backgroundShadowColor: "#000000"
 
@@ -30,9 +30,9 @@ QtObject {
     property color titleShadowColor: "#80252525"
 
     /** Players */
-    property color yellowPlayerColor: "#ffff55"
-    property color redPlayerColor: "#cc2020"
-    property color neutralPlayerColor: "#55ffff"
+    property color yellowPlayerColor: "#ffee88"
+    property color redPlayerColor: "#bb2020"
+    property color neutralPlayerColor: "#77eeee"
     property color playerBorderColor: "#101010"
     property color playerBroomColor: "#808090"
     property color playerBroomFrontColor: "#505050"
@@ -40,19 +40,19 @@ QtObject {
     property color playerFootColor: "#dddddd"
 
     /** Buttons */
-    property color buttonBackgroundColor: "#ddddee"
+    property color buttonBackgroundColor: "#aaddff"
     property color buttonTextColor: "#505050"
     property color buttonTextHoverColor: "#cccccc"
     property color buttonTextDownColor: "#aaaaaa"
-    property color buttonBorderColor: "#eeeeff"
-    property color buttonBorderSelectedColor: "#ff0000"
+    property color buttonBorderColor: "#aaccff"
+    property color buttonBorderSelectedColor: "#f0f0ff"
     property color buttonShadowColor: "#80151515"
     property color buttonFocusedBorderColor: "#ffffff"
     property color buttonIconDownColor: "#707070"
     property color spaceButtonMinColor: "#00eeeeff"
     property color spaceButtonMaxColor: "#b0eeeeff"
     property color spaceButtonDownColor: "#b0eeeeff"
-    property color helpButtonSelectedColor: "#ff2020"
+    property color helpButtonSelectedColor: "#f0f0ff"
     property color choiceListColor: "#8989aa"
 
     /** DirectionPowerBar */
@@ -205,7 +205,7 @@ QtObject {
                     titleShadowColor: "#80020202"
 
                     /** Players */
-                    yellowPlayerColor: "#ffff55"
+                    yellowPlayerColor: "#ddcc66"
                     redPlayerColor: "#cc2020"
                     neutralPlayerColor: "#55ffff"
                     playerBorderColor: "#656565"
@@ -220,14 +220,14 @@ QtObject {
                     buttonTextHoverColor: "#d0d0d0"
                     buttonTextDownColor: "#d0d0d0"
                     buttonBorderColor: "#606060"
-                    buttonBorderSelectedColor: "#ff0000"
+                    buttonBorderSelectedColor: "#f0f0ff"
                     buttonShadowColor: "#90020202"
                     buttonFocusedBorderColor: "#ffffff"
                     buttonIconDownColor: "#d0d0d0"
                     spaceButtonMinColor: "#00050505"
                     spaceButtonMaxColor: "#b0050505"
                     spaceButtonDownColor: "#b0000000"
-                    helpButtonSelectedColor: "#ff2020"
+                    helpButtonSelectedColor: "#f0f0ff"
                     choiceListColor: "#c0c0c0"
 
                     /** DirectionBar */

@@ -60,7 +60,7 @@ MultiPointTouchArea {
         font.pixelSize: root.textSize
         anchors.centerIn: parent
         color: root.textColor
-        font.family: "I AM A PLAYER"
+        font.family: "monospace"
 
         Behavior on color { ColorAnimation { duration: 50 } }
     }

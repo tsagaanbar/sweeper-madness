@@ -10,7 +10,7 @@ Item {
     height: 280
 
     property string text: ""
-    property string fontName: "I AM A PLAYER"
+    property string fontName: "SimSun"
     property int fontSize: 150
     property int colorOrder: Math.random() < 0.5
 
@@ -21,19 +21,19 @@ Item {
 
         Text {
             anchors.horizontalCenter: parent.horizontalCenter
-            text: "Sweeper"
+            text: "热血"
             font.family: root.fontName
             font.pixelSize: root.fontSize
-            color: root.colorOrder ? Style.yellowPlayerColor : Style.redPlayerColor
+            color: "red"
         }
 
         Text {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: parent.bottom
-            text: "Madness"
+            text: "冰壶"
             font.family: root.fontName
             font.pixelSize: root.fontSize - 20
-            color: root.colorOrder ? Style.redPlayerColor : Style.yellowPlayerColor
+            color: "blue"
         }
     }
 

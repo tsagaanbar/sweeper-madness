@@ -24,7 +24,7 @@ Item {
 
         anchors.horizontalCenter: parent.horizontalCenter
         y: 100
-        text: "Sweeper Madness"
+        text: "Curling"
     }
 
     Image {
@@ -32,7 +32,9 @@ Item {
 
         anchors.horizontalCenter: parent.horizontalCenter
         y: 400
-        source: "../sweeper-madness.ico"
+        width: 400
+        fillMode: Image.PreserveAspectFit
+        source: "../curling-stone.png"
     }
 
     Column {
@@ -123,7 +125,7 @@ Item {
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 40
         textSize: 30
-        text: translator.language === "en" ? "fr" : "en"
+        text: translator.language === "en" ? "cn" : "en"
         onReleased: translator.setLanguage(languageButton.text)
     }
 

@@ -48,5 +48,8 @@
         <file>language/fr.ts</file>
         <file>assets/scene/controls/ArrowPart.qml</file>
         <file>assets/Style.qml</file>
+        <file>language/cn.ts</file>
+        <file>curling-stone.png</file>
+        <file>language/cn.qm</file>
     </qresource>
 </RCC>

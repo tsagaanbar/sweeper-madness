@@ -18,7 +18,7 @@ Item {
 
         font.pixelSize: 160
         color: Style.buttonTextColor
-        font.family: "I AM A PLAYER"
+        font.family: "monospace"
         visible: false
     }
 

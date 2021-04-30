@@ -53,7 +53,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             font.pixelSize: 50
             horizontalAlignment: Text.AlignHCenter
-            font.family: "I AM A PLAYER"
+            font.family: "monospace"
             color: root.colorText
             text: (root.index >= 0 && root.index < root.model.length) ? root.model[root.index] : ""
         }
@@ -64,7 +64,7 @@ Item {
             width: 130
             anchors.verticalCenter: parent.verticalCenter
             font.pixelSize: 40
-            font.family: "I AM A PLAYER"
+            font.family: "monospace"
             color: Style.choiceListColor
             text: root.name
         }

@@ -60,7 +60,7 @@ Item {
         id: mute_text
         opacity: 0
         text: root.mute ? "Mute" : "Sound on"
-        font.family: "PaintyPaint"
+        font.family: "monospace"
         font.pixelSize: 30
         color: "#404040"
         anchors.right: parent.right

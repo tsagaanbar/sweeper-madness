@@ -14,8 +14,8 @@ void Translator::setLanguage(QString language) {
     if (language == m_language)
         return;
 
-    if (language == QString("fr")) {
-        m_translator->load("fr", ":/language");
+    if (language == QString("cn")) {
+        m_translator->load("cn", ":/language");
         qApp->installTranslator(m_translator);
     } else {
         qApp->removeTranslator(m_translator);

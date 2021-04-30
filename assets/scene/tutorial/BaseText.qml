@@ -6,7 +6,7 @@ Text {
     id: root
 
     font.pixelSize: 30
-    font.family: "I AM A PLAYER"
+    font.family: "monospace"
     color: Style.buttonTextColor
     wrapMode: Text.WordWrap
     width: 200
