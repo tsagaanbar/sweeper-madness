@@ -42,7 +42,7 @@
     <message>
         <location filename="../assets/Menu.qml" line="109"/>
         <source>RESUME</source>
-        <translation>继续</translation>
+        <translation type="unfinished">继续游戏</translation>
     </message>
 </context>
 <context>
@@ -75,7 +75,7 @@
     <message>
         <location filename="../assets/scene/Tutorial.qml" line="85"/>
         <source>Tap here to validate</source>
-        <translation type="unfinished">点击此处以确认</translation>
+        <translation type="unfinished">点击此处以确认选择</translation>
     </message>
     <message>
         <location filename="../assets/scene/Tutorial.qml" line="100"/>
@@ -88,12 +88,12 @@
     <message>
         <location filename="../assets/scene/hud/Winner.qml" line="15"/>
         <source>Yellow Team wins!</source>
-        <translation type="unfinished">黄队获胜！</translation>
+        <translation type="unfinished">黄方获胜！</translation>
     </message>
     <message>
         <location filename="../assets/scene/hud/Winner.qml" line="15"/>
         <source>Red Team wins!</source>
-        <translation type="unfinished">红队获胜！</translation>
+        <translation type="unfinished">红方获胜！</translation>
     </message>
     <message>
         <location filename="../assets/scene/hud/Winner.qml" line="26"/>
